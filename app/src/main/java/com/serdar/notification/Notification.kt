@@ -11,6 +11,7 @@ import com.serdar.notification.Constants.Companion.CHANNEL_NAME
 object Notification  {
 
 
+  // Notification Builder
     fun exampleNotification(context: Context, title: String, description: String) {
         val notificationManager =
             context.getSystemService(Context.NOTIFICATION_SERVICE) as NotificationManager
@@ -22,6 +23,7 @@ object Notification  {
         notificationManager.notify(1, builder.build())
     }
 
+    // Notification chanel
     private fun createExampleNotificationChannel(notificationManager: NotificationManager) {
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
             val channel = NotificationChannel(
@@ -33,6 +35,7 @@ object Notification  {
         }
     }
 
+    //Notification Style
     private fun createExampleNotificationCompat(
         context: Context,
         title: String,

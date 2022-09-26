@@ -2,8 +2,8 @@ package com.serdar.notification
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.provider.ContactsContract.CommonDataKinds.Organization.TITLE
 import com.serdar.notification.Constants.Companion.DESCRIPTION
+import com.serdar.notification.Constants.Companion.TITLE
 import com.serdar.notification.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
@@ -16,7 +16,7 @@ class MainActivity : AppCompatActivity() {
 
 
         binding.button.setOnClickListener {
-            Notification.exampleNotification(this,TITLE,
+            Notification.exampleNotification(this, TITLE,
                 DESCRIPTION)
         }
     }
