@@ -16,7 +16,7 @@ class MainActivity : AppCompatActivity() {
 
 
         binding.button.setOnClickListener {
-            Notification.exampleNotification(this, TITLE,
+            Notification.notificationBuilder(this, TITLE,
                 DESCRIPTION)
         }
     }

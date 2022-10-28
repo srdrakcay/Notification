@@ -3,7 +3,11 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/user/Notification/app/src/main/res/drawable/notification.xml" value="0.193" />
+        <entry key="..\:/Users/user/Notification/app/src/main/res/layout/activity_cv.xml" value="0.358695652173913" />
         <entry key="..\:/Users/user/Notification/app/src/main/res/layout/activity_main.xml" value="0.35280797101449274" />
+        <entry key="..\:/Users/user/Notification/app/src/main/res/layout/fragment_blank.xml" value="0.4282238442822384" />
+        <entry key="..\:/Users/user/Notification/app/src/main/res/layout/notification.xml" value="0.358695652173913" />
       </map>
     </option>
   </component>
